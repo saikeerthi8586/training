@@ -1,0 +1,15 @@
+p{
+    background-color: aqua;
+    border-radius: 2cm;
+    font-style: normal;
+}
+h5{
+    font-style: italic;
+    font-display: center;
+    border: solid;
+    border-color: black;
+}
+#new{
+    border: solid;
+    border-color: dimgray;
+}
