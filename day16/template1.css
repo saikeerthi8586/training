@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul ol{
+    list-style: none;
+}
+.row{
+    background: #2c2c2c;
+    padding: 20px;
+    border-bottom: 3px solid #f26c4f;
+}
+.container{
+    width:80%;
+    margin:0px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 35px;
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    margin-left:20px;
+}
+.row .container .menu ul li a{
+    color: white;
+    padding:20px;
+
+    text-decoration:none;
+}
+.row .container .menu ul li a:hover{
+    background-color: #555;
+    color:#f26c4f ;
+    border-radius: 5px;
+}
+.row1{
+    background-color: #f3f3f3;
+    /* background-size: 50% 50%; */
+    /* height: 350px; */
+    /* text-align: justify; */
+    color:#333;
+    display: flex;
+    padding: 80px 0px;
+    /* border-bottom: 20px solid ; */
+    justify-content: center;
+}
+.row1 .container{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row1 .para1 h1{
+    /* padding-top: 40px; */
+    /* padding-bottom: 10px; */
+    color: #222;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.row1 .para1 p{
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+.row1 .para1 input[type="button"]{
+    width: 150px;
+    background-color: #f26c4f;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+.row1 .para1 input[type="button"]:hover{
+    background-color: #d85c3d;
+}
+.image{
+    flex:1;
+    text-align: right;
+}
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
